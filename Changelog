@@ -1,0 +1,18 @@
+# Changelog
+
+## [1.0.0] - 2026-11-10
+
+First public GitHub release.
+
+### Added
+- README with setup instructions, environment variable reference, usage guide for each role, ride lifecycle, API overview, security notes, and troubleshooting
+- Root `.gitignore` covering `node_modules`, `.env` files, build output, uploads, logs, and editor folders
+- `backend/.env.example` and `frontend/.env.example`
+
+### Removed from the repository
+- `backend/.env` and `frontend/.env`
+- `backend/uploads/` (personal documents and SOS recordings)
+- `node_modules/` and `frontend/build/`
+
+### Unchanged
+- All application source code (frontend and backend)
